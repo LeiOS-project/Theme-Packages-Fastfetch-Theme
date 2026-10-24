@@ -1,0 +1,16 @@
+Source: leios.theme.fastfetch-theme
+Section: utils
+Priority: optional
+Maintainer: LeiOS Project Team <support@leios.dev>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+Homepage: https://git.leicraftmc.de/LeiOS/Theme-Packages/Fastfetch-Theme
+Rules-Requires-Root: no
+
+Package: leios.theme.fastfetch-theme
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: fastfetch
+Description: LeiOS Fastfetch theme
+ This package provides the LeiOS theme for Fastfetch, including the
+ LeiOS logo and a system-wide default configuration file.

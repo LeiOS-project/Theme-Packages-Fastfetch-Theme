@@ -1,0 +1,10 @@
+#!/bin/sh
+# postinst for leios.theme.fastfetch-theme
+
+set -eu
+
+
+
+#DEBHELPER#
+
+exit 0
