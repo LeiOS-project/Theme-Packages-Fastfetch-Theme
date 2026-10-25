@@ -8,6 +8,12 @@
     "logo": {
         "type": "file",
         "source": "/usr/share/fastfetch/logos/leios.txt",
+        // The LeiOS logo colours: dark blue, blue and cyan.
+        "color": {
+            "1": "38;2;0;0;72",
+            "2": "38;2;0;0;193",
+            "3": "38;2;0;255;255"
+        },
         "padding": {
             "top": 1,
             "left": 2

@@ -4,6 +4,8 @@ leios.theme.fastfetch-theme (1.1.0) unstable; urgency=medium
     lowest-priority location fastfetch reads, so configs in
     ~/.config/fastfetch/ or /etc/xdg/fastfetch/ override it. fastfetch never
     read the previous location, /usr/share/fastfetch/config.jsonc.
+  * Draw the LeiOS logo as ASCII art in the usual fastfetch style and size
+    (16 lines), in the logo's colours.
 
  -- Linus Fischer <leicraft@leicraftmc.de>  Sun, 25 Oct 2026 12:00:00 +0100
 
