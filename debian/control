@@ -13,4 +13,7 @@ Depends: ${misc:Depends}
 Recommends: fastfetch
 Description: LeiOS Fastfetch theme
  This package provides the LeiOS theme for Fastfetch, including the
- LeiOS logo and a system-wide default configuration file.
+ LeiOS logo and a default configuration in /etc/fastfetch/config.jsonc.
+ .
+ Fastfetch only uses that configuration when there is none in
+ ~/.config/fastfetch/ or /etc/xdg/fastfetch/.

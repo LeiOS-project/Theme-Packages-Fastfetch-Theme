@@ -1,3 +1,12 @@
+leios.theme.fastfetch-theme (1.1.0) unstable; urgency=medium
+
+  * Install the default configuration as /etc/fastfetch/config.jsonc, the
+    lowest-priority location fastfetch reads, so configs in
+    ~/.config/fastfetch/ or /etc/xdg/fastfetch/ override it. fastfetch never
+    read the previous location, /usr/share/fastfetch/config.jsonc.
+
+ -- Linus Fischer <leicraft@leicraftmc.de>  Sun, 25 Oct 2026 12:00:00 +0100
+
 leios.theme.fastfetch-theme (1.0.0) unstable; urgency=medium
 
   * Initial release.

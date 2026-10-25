@@ -17,7 +17,8 @@ override_dh_auto_test:
 override_dh_auto_install:
 	rm -rf debian/leios.theme.fastfetch-theme/usr/share/fastfetch
 	mkdir -p debian/leios.theme.fastfetch-theme/usr/share/fastfetch/logos
-	cp -a src/config.jsonc debian/leios.theme.fastfetch-theme/usr/share/fastfetch/config.jsonc
 	cp -a src/logos/* debian/leios.theme.fastfetch-theme/usr/share/fastfetch/logos/
+	# Lowest-priority config location; user and /etc/xdg configs override it.
+	install -D -m 0644 src/config.jsonc debian/leios.theme.fastfetch-theme/etc/fastfetch/config.jsonc
 
 override_dh_auto_build:
